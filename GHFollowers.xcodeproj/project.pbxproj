@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		F84A611E24AF788F00507103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A611D24AF788F00507103 /* AppDelegate.swift */; };
 		F84A612024AF788F00507103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A611F24AF788F00507103 /* SceneDelegate.swift */; };
-		F84A612224AF788F00507103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A612124AF788F00507103 /* ViewController.swift */; };
 		F84A612724AF789300507103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84A612624AF789300507103 /* Assets.xcassets */; };
 		F84A612A24AF789300507103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84A612824AF789300507103 /* LaunchScreen.storyboard */; };
+		F84A613E24B22FCD00507103 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A613D24B22FCD00507103 /* SearchViewController.swift */; };
+		F84A614024B2460500507103 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A613F24B2460500507103 /* FavoritesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F84A611A24AF788F00507103 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84A611D24AF788F00507103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84A611F24AF788F00507103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F84A612124AF788F00507103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F84A612624AF789300507103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84A612924AF789300507103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F84A612B24AF789300507103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84A613D24B22FCD00507103 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F84A613F24B2460500507103 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				F84A611D24AF788F00507103 /* AppDelegate.swift */,
 				F84A611F24AF788F00507103 /* SceneDelegate.swift */,
-				F84A612124AF788F00507103 /* ViewController.swift */,
 				F84A612624AF789300507103 /* Assets.xcassets */,
 				F84A612824AF789300507103 /* LaunchScreen.storyboard */,
 				F84A612B24AF789300507103 /* Info.plist */,
+				F84A613D24B22FCD00507103 /* SearchViewController.swift */,
+				F84A613F24B2460500507103 /* FavoritesListViewController.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -134,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84A612224AF788F00507103 /* ViewController.swift in Sources */,
+				F84A613E24B22FCD00507103 /* SearchViewController.swift in Sources */,
 				F84A611E24AF788F00507103 /* AppDelegate.swift in Sources */,
+				F84A614024B2460500507103 /* FavoritesListViewController.swift in Sources */,
 				F84A612024AF788F00507103 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

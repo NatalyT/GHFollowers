@@ -70,22 +70,54 @@
 		F84A611C24AF788F00507103 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				F84A615424BDF8D700507103 /* Support */,
+				F84A615324BDF86C00507103 /* Extensions */,
+				F84A615224BDF83E00507103 /* Custom Views */,
+				F84A615124BDF80500507103 /* Screens */,
+				F84A612B24AF789300507103 /* Info.plist */,
+			);
+			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		F84A615124BDF80500507103 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F84A613D24B22FCD00507103 /* SearchViewController.swift */,
+				F84A613F24B2460500507103 /* FavoritesListViewController.swift */,
+				F84A614524B5E5E100507103 /* FollowerListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F84A615224BDF83E00507103 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F84A614124B49E9700507103 /* GFButton.swift */,
+				F84A614324B5C95400507103 /* GFTextField.swift */,
+				F84A614724B72E4600507103 /* GFTitleLabel.swift */,
+				F84A614924B7304800507103 /* GFBodyLabel.swift */,
+				F84A614B24B7315500507103 /* GFAlertViewController.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		F84A615324BDF86C00507103 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F84A614D24B738EE00507103 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F84A615424BDF8D700507103 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				F84A611D24AF788F00507103 /* AppDelegate.swift */,
 				F84A611F24AF788F00507103 /* SceneDelegate.swift */,
 				F84A612624AF789300507103 /* Assets.xcassets */,
 				F84A612824AF789300507103 /* LaunchScreen.storyboard */,
-				F84A612B24AF789300507103 /* Info.plist */,
-				F84A613D24B22FCD00507103 /* SearchViewController.swift */,
-				F84A613F24B2460500507103 /* FavoritesListViewController.swift */,
-				F84A614124B49E9700507103 /* GFButton.swift */,
-				F84A614324B5C95400507103 /* GFTextField.swift */,
-				F84A614524B5E5E100507103 /* FollowerListViewController.swift */,
-				F84A614724B72E4600507103 /* GFTitleLabel.swift */,
-				F84A614924B7304800507103 /* GFBodyLabel.swift */,
-				F84A614B24B7315500507103 /* GFAlertViewController.swift */,
-				F84A614D24B738EE00507103 /* UIViewController+Ext.swift */,
 			);
-			path = GHFollowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

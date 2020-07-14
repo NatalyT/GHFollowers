@@ -20,6 +20,8 @@
 		F84A614A24B7304800507103 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A614924B7304800507103 /* GFBodyLabel.swift */; };
 		F84A614C24B7315500507103 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A614B24B7315500507103 /* GFAlertViewController.swift */; };
 		F84A614E24B738EE00507103 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A614D24B738EE00507103 /* UIViewController+Ext.swift */; };
+		F84A615724BDFC8C00507103 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A615624BDFC8C00507103 /* Follower.swift */; };
+		F84A615924BDFD4F00507103 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A615824BDFD4F00507103 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F84A614924B7304800507103 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		F84A614B24B7315500507103 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 		F84A614D24B738EE00507103 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		F84A615624BDFC8C00507103 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		F84A615824BDFD4F00507103 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		F84A611C24AF788F00507103 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				F84A615524BDFC7A00507103 /* Model */,
 				F84A615424BDF8D700507103 /* Support */,
 				F84A615324BDF86C00507103 /* Extensions */,
 				F84A615224BDF83E00507103 /* Custom Views */,
@@ -118,6 +123,15 @@
 				F84A612824AF789300507103 /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		F84A615524BDFC7A00507103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F84A615624BDFC8C00507103 /* Follower.swift */,
+				F84A615824BDFD4F00507103 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84A615924BDFD4F00507103 /* User.swift in Sources */,
 				F84A614C24B7315500507103 /* GFAlertViewController.swift in Sources */,
 				F84A614424B5C95400507103 /* GFTextField.swift in Sources */,
 				F84A613E24B22FCD00507103 /* SearchViewController.swift in Sources */,
@@ -197,6 +212,7 @@
 				F84A614224B49E9700507103 /* GFButton.swift in Sources */,
 				F84A614624B5E5E100507103 /* FollowerListViewController.swift in Sources */,
 				F84A614A24B7304800507103 /* GFBodyLabel.swift in Sources */,
+				F84A615724BDFC8C00507103 /* Follower.swift in Sources */,
 				F84A614824B72E4600507103 /* GFTitleLabel.swift in Sources */,
 				F84A611E24AF788F00507103 /* AppDelegate.swift in Sources */,
 				F84A614024B2460500507103 /* FavoritesListViewController.swift in Sources */,

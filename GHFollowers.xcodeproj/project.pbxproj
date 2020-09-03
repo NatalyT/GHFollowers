@@ -28,7 +28,10 @@
 		F84A616E24CEE59C00507103 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A616D24CEE59C00507103 /* GFAvatarImageView.swift */; };
 		F84A617024CF3C5C00507103 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A616F24CF3C5C00507103 /* UIHelper.swift */; };
 		F84A619624E4175C00507103 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A619524E4175C00507103 /* GFEmptyStateView.swift */; };
+		F85352F22500EC9A00EBF8AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85352F12500EC9A00EBF8AE /* Constants.swift */; };
 		F88A946D24EBC64C00B46673 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A946C24EBC64C00B46673 /* UserInfoViewController.swift */; };
+		F88A946F24EE6CE400B46673 /* GFUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A946E24EE6CE400B46673 /* GFUserInfoHeaderViewController.swift */; };
+		F88A947124EE6D4100B46673 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A947024EE6D4100B46673 /* GFSecondaryTitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +58,10 @@
 		F84A616D24CEE59C00507103 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		F84A616F24CF3C5C00507103 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		F84A619524E4175C00507103 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		F85352F12500EC9A00EBF8AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F88A946C24EBC64C00B46673 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		F88A946E24EE6CE400B46673 /* GFUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
+		F88A947024EE6D4100B46673 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,7 @@
 			children = (
 				F84A615E24BF811800507103 /* GFError.swift */,
 				F84A616F24CF3C5C00507103 /* UIHelper.swift */,
+				F85352F12500EC9A00EBF8AE /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -214,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				F84A614B24B7315500507103 /* GFAlertViewController.swift */,
+				F88A946E24EE6CE400B46673 /* GFUserInfoHeaderViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			children = (
 				F84A614724B72E4600507103 /* GFTitleLabel.swift */,
 				F84A614924B7304800507103 /* GFBodyLabel.swift */,
+				F88A947024EE6D4100B46673 /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -303,14 +312,17 @@
 				F84A613E24B22FCD00507103 /* SearchViewController.swift in Sources */,
 				F84A614E24B738EE00507103 /* UIViewController+Ext.swift in Sources */,
 				F84A617024CF3C5C00507103 /* UIHelper.swift in Sources */,
+				F85352F22500EC9A00EBF8AE /* Constants.swift in Sources */,
 				F84A616E24CEE59C00507103 /* GFAvatarImageView.swift in Sources */,
 				F84A614224B49E9700507103 /* GFButton.swift in Sources */,
+				F88A946F24EE6CE400B46673 /* GFUserInfoHeaderViewController.swift in Sources */,
 				F84A614624B5E5E100507103 /* FollowerListViewController.swift in Sources */,
 				F84A616C24CEE51F00507103 /* FollowerCell.swift in Sources */,
 				F84A615F24BF811800507103 /* GFError.swift in Sources */,
 				F84A614A24B7304800507103 /* GFBodyLabel.swift in Sources */,
 				F84A615724BDFC8C00507103 /* Follower.swift in Sources */,
 				F84A614824B72E4600507103 /* GFTitleLabel.swift in Sources */,
+				F88A947124EE6D4100B46673 /* GFSecondaryTitleLabel.swift in Sources */,
 				F84A619624E4175C00507103 /* GFEmptyStateView.swift in Sources */,
 				F84A615C24BE018300507103 /* NetworkManager.swift in Sources */,
 				F84A611E24AF788F00507103 /* AppDelegate.swift in Sources */,

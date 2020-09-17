@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80210F325135BDD0090E9FE /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80210F225135BDD0090E9FE /* FavoriteCell.swift */; };
 		F84A611E24AF788F00507103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A611D24AF788F00507103 /* AppDelegate.swift */; };
 		F84A612024AF788F00507103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A611F24AF788F00507103 /* SceneDelegate.swift */; };
 		F84A612724AF789300507103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84A612624AF789300507103 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F80210F225135BDD0090E9FE /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		F84A611A24AF788F00507103 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84A611D24AF788F00507103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84A611F24AF788F00507103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				F84A616B24CEE51F00507103 /* FollowerCell.swift */,
+				F80210F225135BDD0090E9FE /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				F8525D81250B832700751400 /* GFItemInfoView.swift in Sources */,
 				F8525D87250BA64600751400 /* GFFollowerItemVC.swift in Sources */,
 				F84A614624B5E5E100507103 /* FollowerListViewController.swift in Sources */,
+				F80210F325135BDD0090E9FE /* FavoriteCell.swift in Sources */,
 				F84A616C24CEE51F00507103 /* FollowerCell.swift in Sources */,
 				F84A615F24BF811800507103 /* GFError.swift in Sources */,
 				F84A614A24B7304800507103 /* GFBodyLabel.swift in Sources */,

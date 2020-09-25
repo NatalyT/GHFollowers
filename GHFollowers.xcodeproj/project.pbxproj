@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F80210F325135BDD0090E9FE /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80210F225135BDD0090E9FE /* FavoriteCell.swift */; };
+		F80210F6251917640090E9FE /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80210F5251917640090E9FE /* GFTabBarController.swift */; };
 		F84A611E24AF788F00507103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A611D24AF788F00507103 /* AppDelegate.swift */; };
 		F84A612024AF788F00507103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A611F24AF788F00507103 /* SceneDelegate.swift */; };
 		F84A612724AF789300507103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84A612624AF789300507103 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		F80210F225135BDD0090E9FE /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		F80210F5251917640090E9FE /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		F84A611A24AF788F00507103 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84A611D24AF788F00507103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84A611F24AF788F00507103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80210F42519170B0090E9FE /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F80210F5251917640090E9FE /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
 		F84A611124AF788F00507103 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +123,10 @@
 				F84A615D24BF80FF00507103 /* Utilities */,
 				F84A615A24BE016D00507103 /* Managers */,
 				F84A615524BDFC7A00507103 /* Model */,
-				F84A615424BDF8D700507103 /* Support */,
 				F84A615324BDF86C00507103 /* Extensions */,
 				F84A615224BDF83E00507103 /* Custom Views */,
 				F84A615124BDF80500507103 /* Screens */,
+				F84A615424BDF8D700507103 /* Support */,
 				F84A612B24AF789300507103 /* Info.plist */,
 			);
 			path = GHFollowers;
@@ -136,6 +146,7 @@
 		F84A615224BDF83E00507103 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F80210F42519170B0090E9FE /* TabBarControllers */,
 				F84A619424E4170D00507103 /* Labels */,
 				F84A619324E416EA00507103 /* ViewControllers */,
 				F84A619224E416DC00507103 /* ImageViews */,
@@ -354,6 +365,7 @@
 				F84A614624B5E5E100507103 /* FollowerListViewController.swift in Sources */,
 				F80210F325135BDD0090E9FE /* FavoriteCell.swift in Sources */,
 				F84A616C24CEE51F00507103 /* FollowerCell.swift in Sources */,
+				F80210F6251917640090E9FE /* GFTabBarController.swift in Sources */,
 				F84A615F24BF811800507103 /* GFError.swift in Sources */,
 				F84A614A24B7304800507103 /* GFBodyLabel.swift in Sources */,
 				F84A615724BDFC8C00507103 /* Follower.swift in Sources */,

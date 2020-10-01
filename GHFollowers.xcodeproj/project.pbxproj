@@ -43,6 +43,7 @@
 		F89162E12521DD70004430CC /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89162E02521DD70004430CC /* UIView+Ext.swift */; };
 		F896BCBE250C0F3B00397EA7 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896BCBD250C0F3B00397EA7 /* Date+Ext.swift */; };
 		F896BCC0250C0F6D00397EA7 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896BCBF250C0F6D00397EA7 /* String+Ext.swift */; };
+		F8988E972526042A00CF5367 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8988E962526042A00CF5367 /* UITableView+Ext.swift */; };
 		F89B82E125128C150041D365 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B82E025128C150041D365 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		F89162E02521DD70004430CC /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		F896BCBD250C0F3B00397EA7 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F896BCBF250C0F6D00397EA7 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		F8988E962526042A00CF5367 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		F89B82E025128C150041D365 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +173,7 @@
 				F896BCBD250C0F3B00397EA7 /* Date+Ext.swift */,
 				F896BCBF250C0F6D00397EA7 /* String+Ext.swift */,
 				F89162E02521DD70004430CC /* UIView+Ext.swift */,
+				F8988E962526042A00CF5367 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				F84A615F24BF811800507103 /* GFError.swift in Sources */,
 				F84A614A24B7304800507103 /* GFBodyLabel.swift in Sources */,
 				F84A615724BDFC8C00507103 /* Follower.swift in Sources */,
+				F8988E972526042A00CF5367 /* UITableView+Ext.swift in Sources */,
 				F84A614824B72E4600507103 /* GFTitleLabel.swift in Sources */,
 				F89162DD251E12FD004430CC /* GFAlertContainerView.swift in Sources */,
 				F88A947124EE6D4100B46673 /* GFSecondaryTitleLabel.swift in Sources */,
